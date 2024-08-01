@@ -470,9 +470,16 @@ color: rgba(255, 255, 255, 1);
 }
 
 .close-btn:hover,
+.close-btn:focus,
 .close-btn:focus-within {
-  background-color: #404bbf;
+  background-color: #404BBF;
   border: none;
+}
+
+.close-btn:hover .close-btn-icon,
+.close-btn:focus .close-btn-icon,
+.close-btn:focus-within .close-btn-icon {
+  fill: #FFFFFF;
 }
 
 /* .close-btn-icon {} */
