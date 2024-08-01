@@ -470,7 +470,7 @@ color: rgba(255, 255, 255, 1);
 }
 
 .close-btn:hover,
-.close-btn:focus {
+.close-btn:focus-within {
   background-color: #404bbf;
   border: none;
 }
