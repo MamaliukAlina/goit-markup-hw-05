@@ -553,7 +553,6 @@ margin-bottom: 16px;
     border: 1px solid rgba(77, 90, 229, 1);
   }
   .modal-icons {
-    /* fill: transparent; */
     stroke: rgba(46, 47, 66, 1);
     position: absolute;
     left: 16px;
