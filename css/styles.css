@@ -476,28 +476,13 @@ color: rgba(255, 255, 255, 1);
   border: none;
 }
 
-.close-btn:hover .close-btn-icon,
-.close-btn:focus .close-btn-icon,
-.close-btn:focus-within .close-btn-icon {
+.close-btn:hover > .close-btn-icon,
+.close-btn:focus > .close-btn-icon,
+.close-btn:focus-within > .close-btn-icon {
   fill: #FFFFFF;
 }
 
-/* .close-btn-icon {} */
 
-/* .close-btn:hover,
-.close-btn:focus,
-.close-btn:active {
-  background-color:#404bbf;
-  border: 1px solid rgba(64, 75, 191, 1);
-  color:rgba(255, 255, 255, 1);
-  border: none;
-} */
-
-/* .close-btn:hover svg,
-.close-btn:focus svg,
-.close-btn:active svg {
-  fill: #ffffff;
-} */
 
 .modal-paragraph {
 font-weight: 500;
