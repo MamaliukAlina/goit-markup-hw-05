@@ -472,18 +472,21 @@ color: rgba(255, 255, 255, 1);
 }
 
 .close-btn:hover,
-.close-btn:focus,
-.close-btn:focus-within {
-  background-color: #404BBF;
+.close-btn:focus {
+  /* background-color: #404BBF;
+  border: none; */
+
+  background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
-.close-btn:hover > .close-btn-icon {
+/* .close-btn:hover > .close-btn-icon {
   fill: #FFFFFF;
 }
 .close-btn:focus > .close-btn-icon {
   fill: #FFFFFF;
-}
+} */
 
 
 
